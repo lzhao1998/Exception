@@ -1,0 +1,28 @@
+---
+:source:
+  :path: test
+  :file: test_Exception.c
+:successes:
+- :test: test_Exception_NeedToImplement
+  :line: 11
+  :message: ''
+- :test: test_getName_given_1_expect_David
+  :line: 62
+  :message: ''
+- :test: test_getName_given_minus_1_expect_ERR_OUT_OF_BOUND
+  :line: 77
+  :message: ''
+- :test: test_getName_given_company1_people2_expect_wolly
+  :line: 92
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'Error code: 3'
+- ERR OUT OF BOUND
+- 'Error code: 3'
